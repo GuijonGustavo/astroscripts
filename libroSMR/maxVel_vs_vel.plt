@@ -2,7 +2,7 @@ set terminal png size 1280,960
 #set terminal x11 1
 set output 'maxVel_vs_vel.png'
 #set style increment default
-set title "Velocidad aparente vs (v/c)/sqrt(1-(v/c)^2)"
+set title "Vel vs v{/Symbol g}"
 
 set xlabel "v/c"
 set ylabel "Velocidad aparente (c)"
